@@ -46,3 +46,68 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* Basic styles */
+.container {
+	width: 900px;
+	margin: 0 auto;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+/* Header */
+
+header {
+	width: 900px;
+	height: 400px;
+	background-image: linear-gradient(to bottom left, #CB4B7F, rgb(66, 138, 189));
+	color: white;
+	text-align: center;
+}
+
+header h1 {
+	font-size: 60px;
+	padding-top: 50px;
+	font-weight: 900;
+	margin-bottom: 30px;
+}
+
+header p {
+	font-size: 20px;
+	line-height: 1.5;
+	padding: 0 20px;
+}
+
+/* Nav Bar */
+
+
+.nav-bar nav {
+	height: 100px;
+	width: 900px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.nav-bar nav button {
+	font-size: 15px;
+	background: transparent;
+	border-color: rgb(53, 109, 150);
+	border-radius: 20px;
+	border-width: 2px;
+	padding: 10px 40px;
+	color: rgb(53, 109, 150);
+}
+
+
+/* Images */
+
+.img-flex {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between
+}
+
+.img-flex img {
+	height: 50%;
+	width: 50%;
+}
